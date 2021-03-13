@@ -3,8 +3,9 @@ import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import Hero from '../components/Hero'
 import Feature from '../components/Feature'
-import Products from '../components/Products'
-import { productData, productDataTwo, } from '../components/Products/data'
+
+import ProvidedServices from '../components/ProvidedServices'
+
 import Footer from '../components/Footer'
 
 const Home = () => {
@@ -18,9 +19,9 @@ const Home = () => {
            <Sidebar isOpen={isOpen} toggle={toggle}/>
            <Navbar toggle={toggle}/> 
             <Hero />
-            <Products data={productData} />
+            <ProvidedServices />
             <Feature />
-            <Products data={productDataTwo} />
+            
         </>
     )
 }

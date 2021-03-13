@@ -4,8 +4,10 @@ import { GlobalStyle } from './globalStyles';
 import Footer from './components/Footer';
 import SearchPage from './pages/searchPage'
 import SigninPage from './pages/signin';
+import SignupPage from './pages/signup';
 import Home from './pages/Home';
-import ProductsView from './pages/ProductsView';
+import EntryRecipes from './pages/EntryRecipes';
+import ViewRecipes from './pages/ViewRecipes';
 
 
 
@@ -17,8 +19,10 @@ function Routes() {
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/signin" component={SigninPage} exact />
+        <Route path="/signup" component={SignupPage} exact />
         <Route path="/find-meal-plan" component={SearchPage} exact />
-        <Route path="/our-meals" component={ProductsView} exact />
+        <Route path="/entry-recipes" component={EntryRecipes} exact />
+        <Route path="/view-recipes" component={ViewRecipes} exact></Route>
       </Switch>
     
     <Footer />

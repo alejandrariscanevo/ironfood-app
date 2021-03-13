@@ -16,6 +16,7 @@ export const FeatureContainer = styled.div`
 
     h1 {
         font-size: clamp(3rem, 5vw, 5rem);
+        color: white;
     }
 
     p {
@@ -28,7 +29,7 @@ export const FeatureButton = styled.button`
     font- size: 1.4rem;
     padding: 0.6rem 3rem;
     border: none;
-    background: #ffc500;
+    background: #8cc63f;
     color: #000;
     transition: 0.2s ease-out;
     cursor: pointer;

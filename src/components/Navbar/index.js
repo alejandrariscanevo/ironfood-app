@@ -7,7 +7,6 @@ const Navbar = ({toggle}) => {
             <Nav>
                 <NavLink to='/'>Iron Food</NavLink>
                 <NavIcon onClick={toggle}>
-                    <p>Menu</p>
                     <Bars />
                 </NavIcon>
             </Nav>
